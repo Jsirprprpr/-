@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.box {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #E0EFFF
+}
+
+a {
+	text-decoration: none
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #52A4F8;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	width: 180px;
+	letter-spacing: 1px;
+	color: #FFFEFE;
+	line-height: 50px;
+}
+
+nav a:hover {
+	background-color: #0978E9
+}
+
+#on {
+	background-color: #0978E9
+}
+
+.lunbo {
+	width: 100%;
+	height: 550px;
+	margin: 0 auto;
+}
+
+.lunbo img {
+	width: 100%;
+	height: 550px;
+	margin: 0 auto;
+
+}
+
+.img1 {
+	display: block;
+}
+
+.img2 {
+	display: none;
+}
+
+.img3 {
+	display: none;
+}
+
+span {
+	color: #52A4F8;
+}
+
+h1 {
+	font-family: "华文中宋";
+	letter-spacing: 5px;
+	font-weight: lighter;
+	line-height: 80px;
+}
+
+.me img {
+	border-radius: 150px;
+}
+
+.me table {
+	margin-left: 40%;
+	width: 500px;
+	height: 300px;
+	margin-top: -300px;
+	letter-spacing: 3px;
+}
+
+.me {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.img,
+.trip {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.aihao img {
+	width: 300px;
+	height: 350px;
+}
+
+.aihao div {
+	width: 320px;
+	height: 620px;
+	display: inline-block;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.aihao h3 {
+	font-family: "华文楷体";
+	letter-spacing: 5px;
+	font-size: 22px;
+	line-height: 50px;
+}
+
+.aihao p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.aihao {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.skill img {
+	width: 250px;
+	height: 250px;
+	border-radius: 30px;
+}
+
+.skill table {
+	height: 600px;
+}
+
+.skill p {
+	margin-left: 15px;
+	margin-right: 15px;
+	line-height: 30px;
+	cursor: pointer
+}
+
+.skill h3 {
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: "华文楷体";
+	font-size: 22px;
+	cursor: pointer
+}
+
+.trip h3 {
+	line-height: 50px;
+	font-family: "华文宋体";
+	letter-spacing: 3px;
+}
+
+.liuyan {
+	position: relative;
+}
+
+.liuyan input {
+	width: 400px;
+	height: 30px;
+}
+
+.liuyan table {
+	height: 250px;
+	margin-left: 40px;
+}
+
+button {
+	width: 400px;
+	margin-left: 90px;
+	height: 40px;
+	background-color: #52A4F8;
+	color: white;
+	font-family: "等线";
+	letter-spacing: 10px;
+	font-size: 20px;
+	border: 1px solid #ACACAC;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #086ACF
+}
+
+.liuyan p {
+	position: absolute;
+	right: 240px;
+	line-height: 40px;
+	font-family: "等线";
+	top: 20px;
+	letter-spacing: 1px;
+	font-size: 23px;
+	border-left: 2px solid #52A4F8;
+	padding-left: 80px;
+
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #086DD5;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+
+.aihao div:hover h3,
+.skill td:hover h3 {
+	color: #52A4F8
+}
